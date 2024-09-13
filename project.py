@@ -25,7 +25,7 @@ def remove_todo():
             removed_task = todo_list.pop(task_number - 1)
             print(f"할 일 '{removed_task}'가 삭제되었습니다.\n")
         else:
-            print("잘못된 번호입니다. 다시 시도하세요.\n")
+            print("잘못된 번호입니다. 다시 입력하세요.\n")
     except ValueError:
         print("번호를 입력해 주세요.\n")
 
